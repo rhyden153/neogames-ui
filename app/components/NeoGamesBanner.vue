@@ -5,7 +5,7 @@ const id = useId()
 </script>
 
 <template>
-  <section class="neo-banner" aria-label="Neo Games collection">
+  <section class="neo-banner" aria-label="Neo Games collection" margin-top: 44px;>
     <a class="card" href="https://neogames.io" :aria-labelledby="`${id}-title ${id}-cta`">
       <div class="media">
         <img src="/neogames/banner.webp" alt="Neo Games arcade collection" width="1280" height="671" loading="lazy">
