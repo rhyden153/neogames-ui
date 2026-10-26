@@ -5,6 +5,10 @@
   "type": "module",
   "main": "./nuxt.config.ts",
   "devDependencies": {
-    "nuxt": "^4.5.2"
+    "nuxt": "^4.5.2",
+    "redis": "^6.3.0"
+  },
+  "peerDependencies": {
+    "redis": "^6.3.0"
   }
 }
